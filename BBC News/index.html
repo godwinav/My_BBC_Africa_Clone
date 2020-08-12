@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Africa - BBC News</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif ;
+        }
+        #topbar{
+
+            width: 1260px;
+            margin: 0 auto;
+            height: 40px;
+            
+          
+        }
+
+        #logo{
+            width: 80px;
+            height: auto;
+            margin-top: 8px;
+            filter: invert();
+            float: left;
+            margin-right: 8px;
+        }
+        .topbar-section{
+            float: left;
+            border-left: 1px #cccccc solid;
+            height: 100%;
+
+        }
+        
+        #signin-image{
+            margin: 6px 8px;
+            float: left;
+        }
+        #sign-in{
+            font-weight: bold;
+            font-size: 90%;
+            position: relative;
+            top: 15px;
+            right: 8px;float: left;
+        }
+        .signin-div{
+            f
+        }
+        .topbar-menu{
+            font-weight: bold;
+            font-size: 85%;
+            padding: 13px 15px 0 15px;
+            height: 27px;
+            
+            
+        }
+        .margin-left{
+            margin-left: 80px;
+        }
+        .margin-right{
+            margin-right: 80px;
+        }
+        #more-icon{
+            margin-left: 60px;
+            width: 15px;
+            
+           
+        }
+        #search-bar{
+            float: right;
+            border: none;
+            width: 120px;
+            background-color: #E4E4E4;
+            font-weight: bold;
+            font-size: 13px;
+            padding: 5px ;
+            margin: 8px 0px 5px 20px;
+            float: left;
+        }
+        #magnifying-glass{
+            height: 25px;
+            margin-top: 8px;
+            
+        }
+        .clear-float{
+            clear: both;
+        }
+        #menu-bar-container{
+            background-color: #BB1919;
+            width: 100%;
+            height: 100px;
+            border-top: 1px #cccccc  solid ;
+           
+        }
+        #menu-bar{
+            width: 1260px;
+            margin: 0 auto;
+        }
+        h1{
+            padding: 0;
+            margin: 0;
+            font-size: 40px;
+            color: white;
+            font-weight: normal;
+            padding-top: 10px;   
+        }
+
+        .menu-items-container{
+            background-color:#BB1919 ;
+            width: 1270px;
+            margin: 0 auto;
+            height: 43px;
+            position: relative;
+            left: 3px;
+            
+        }
+        .menu-items-container a:hover{
+            border-bottom: white solid;
+        }
+
+        .menu-items2 a{
+            color: white;
+            text-decoration: none;
+            border-right:solid rgb(187, 69, 79);
+            border-width: thin;
+            font-size: 15px;
+            position: relative;
+            top: 13px;
+            padding: 0 8px;
+            right: 8px;
+            font-weight: lighter;
+            
+        }
+
+        .no-border{
+            border: none !important;
+        }
+        #down-arrow{
+            width: 18px;
+            position: relative;
+            top: 18px;
+            right: 18px;
+            width: 20px;
+        }
+        .menu-items-container2{
+            width: 1260px;
+            margin: 0 auto;
+            background-color:white;
+            height: 30px; 
+        }
+        .menu-items-container2 a:hover{
+            border-bottom:#BB1919 solid;
+        }
+        .menu-items3 a{
+            color: #404045;
+            text-decoration: none;
+            border-right:solid rgb(220, 220, 220);
+            border-width: thin;
+            font-size: 15px;
+            position: relative;
+            top: 13px;
+            padding-left: 12px;
+            padding-right: 12px;
+            right: 8px;
+            font-weight: 400;
+            font-stretch: 100%;
+            height: auto;
+            font-style: normal;
+            font-variant-numeric: normal;
+        }
+        #clicked{
+            border-bottom: #BB1919 solid;
+        }
+        #world{
+            font-weight: 400;
+            font-size: 20px !important;
+            padding-right: 4px !important;
+            padding-left: 12px;
+            padding-right: 12px;
+          
+            
+        }
+        #middle-East{
+            border-right: none;
+        }
+        .Main-article{
+            width: 1300px;
+            margin: 0 auto;
+            height: 43px;
+            position: relative;
+            left: 50px;
+            float: left;
+            
+        }
+        #first-image{
+            position: relative;
+            top: 25px;
+            clear: both;
+            width: 300px;
+        }
+        #time{
+            position: relative;
+            right: 5px;
+        }
+        .Main-article h2{
+            color: #64645F;
+            position: relative;
+            top: 20px;
+            font-weight: 900;
+            font-size:162% !important;
+            
+        }
+        #first-story{
+            float: left;
+        }
+
+
+
+
+        .Main-article a {
+           text-decoration: none;
+           
+        }
+       
+
+        .Main-article h2:hover{
+           color:#3783A1;
+           text-decoration: underline;
+        }
+        .Main-article p{
+            
+            color: #64645F;
+            position: relative;
+            top: 15px;
+            font-size: 15px;
+        }
+
+        .Main-article
+
+        #right-side-stories{
+            width: 700px;
+            height: 600px;
+            float: left;
+            margin-right: 15px;
+        }
+        .rigt-story1{
+            margin-top: 20px;
+            margin-left: 8px;
+            width: 225px;
+        }
+        .right-story-link{
+            position: relative;
+            left: 13px;
+            bottom: 20px;
+            font-size: 14px;
+            color:#64645F ;
+            line-height: 25px;
+            
+            
+        }
+        .right-story-link:hover{
+            text-decoration: underline;
+            color:#3783A1
+        }
+     .p-class{
+            position: relative;
+            left: 13px;
+            text-decoration: none;
+            color: #64645F;
+            font-size: 13px;
+            bottom: 30px;
+            
+        }
+        .first-right{
+            float: left;
+        }
+
+         .first-right {
+            
+         }   
+        
+        #rigt-story2{
+            float: left;
+        }
+        #big{
+            width: 230px;
+            clear: both;
+        }
+        #hr{
+            position: relative;
+            bottom: 40px;
+            left: 8px;
+        }
+        .horizontal-stories{
+            width: 1200px;
+            margin: 0 auto;
+            height: 200px;
+            position: relative;
+            left: 0;
+            float: left;
+            top: 100px;
+           
+        }
+        .horizontal-stories img{
+            width:230px ;
+            float: ;
+        }
+    
+    </style>
+</head>
+<body>
+    <div id="topbar">
+        <img id="logo" src="BBC images/BBC-Logo.png" alt="">
+
+        <div id="signin-div" class="topbar-section">
+            <img id="signin-image" src="BBC images/signin.png" alt="">
+               <span id="sign-in">Sign in</span> 
+        </div>
+
+        <div class="topbar-section topbar-menu margin-left">
+            Home
+
+        </div>
+
+        
+        <div class="topbar-section topbar-menu margin-left">
+            News
+
+        </div>
+
+         <div class="topbar-section topbar-menu">
+        Sport
+
+        </div>
+
+    
+
+        <div class="topbar-section topbar-menu">
+            Reel
+
+        </div>
+
+        <div class="topbar-section topbar-menu">
+            Worklife
+
+        </div>
+
+        <div class="topbar-section topbar-menu">
+            Travel
+
+        </div>
+
+        <div class="topbar-section topbar-menu">
+            Feature
+
+        </div>
+
+        <div class="topbar-section topbar-menu">
+            Culture
+
+        </div>
+
+        <div class="topbar-section topbar-menu ">
+            More
+            <img id="more-icon" src="BBC images/more icon.png" alt="">
+        </div> 
+
+        <div class="topbar-section ">
+           <input id="search-bar" type="text"value="Search">
+           <input type="image" id="magnifying-glass" src="BBC images/nagnifying glass.png" alt="">
+
+        </div>
+      
+    </div>
+    <div class="clear-float"></div>
+
+    <div id="menu-bar-container">
+
+        <div id="menu-bar">
+            <h1>NEWS</h1>
+        </div>
+        <div class="clear-float"></div>
+        <div class="menu-items-container">
+
+            <div class="menu-items2">
+                <a cl href="#">Home</a>
+                <a href="#">Coronavirus</a>
+                <a href="#">Video</a>
+                <a href="#">World</a>
+                <a href="#">US & Canada</a>
+                <a href="#">UK</a>
+                <a href="#">Business</a>
+                <a href="#">Tech</a>
+                <a href="#">Science</a>
+                <a href="#">Stories</a>
+                <a href="#">Entertainment & Art</a>
+                <a href="#">Health</a>
+                <a href="#">In Pictures</a>
+                <a href="#">Reality Check</a>
+                <a class="no-border" href="#">More</a>
+                <img id="down-arrow" src="BBC images/downarrow.png" alt="">
+            </div>
+
+        </div>
+    
+
+    
+    </div>
+    
+
+    <div class="clear-float"></div>
+
+    <div class="menu-items-container2">
+        <div class="menu-items3">
+            <a id="world" href="#">World</a>
+            <a id="clicked" href="#">Africa</a>
+            <a href="#">Asia</a>
+            <a href="#">Australia</a>
+            <a href="#">Europe</a>
+            <a href="#">Latin America</a>
+            <a id="middle-East" href="#">Middle East</a>
+            
+
+
+        </div>
+
+    </div>
+    <div class="clear-float"></div>
+
+    <div class="Main-article">
+     <div id="first-story">
+        <a id="first-image" href="#"><img src="BBC images/first-image.png" alt=""></a> 
+        
+            <a href="#"><h2>Madagascar Hospitals 'overwhelmed'by <br> Coronavirus</h2></a>
+            <div class="dont-underline">
+            <a class="" href="#"><p>The president has been promoting a Herbal drink to cure the  virus despite <br> warning from WHO.</p> </a>
+            <img id="time" src="BBC images/time.png" alt="">
+            </div>
+    </div>
+
+    <div id="right-side-stories">
+
+            <div class="first-right">
+                <img class="rigt-story1" src="BBC images/1.png" alt="">
+                <a class="right-story-link" href="#">
+                <h3> Where police may be more <br> deadly than coronavirus</h3></a>
+                <a href="#"><h4 class="p-class">No-one has officially died from <br> Covid-19 in Uganda, but 12 people <br> have allegedly been killed by <br> security officers.</h4></a>
+                <img id="hr" src="BBC images/hr.png" alt="">
+            </div>   
+
+
+            <div class="first-right">
+                <img class="rigt-story1" src="BBC images/2.png" alt="">
+                <a class="right-story-link" href="#">
+                    <h3> Where police may be more <br> deadly than coronavirus</h3></a>
+                    <a href="#"><h4 class="p-class">No-one has officially died from <br> Covid-19 in Uganda, but 12 people <br> have allegedly been killed by <br> security officers.</h4></a>
+                    <img id="hr" src="BBC images/hr.png" alt="">
+            </div>
+
+
+            <div class="first-right">
+                <img class="rigt-story1" src="BBC images/3.png" alt="">
+                <a class="right-story-link" href="#">
+                    <h3> Where police may be more <br> deadly than coronavirus</h3></a>
+                    <a href="#"><h4 class="p-class">No-one has officially died from <br> Covid-19 in Uganda, but 12 people <br> have allegedly been killed by <br> security officers.</h4></a>
+                    <img id="hr" src="BBC images/hr.png" alt="">
+            </div>
+
+
+
+            <div class="first-right">
+                <img class="rigt-story1" src="BBC images/4.png" alt="">
+                <a class="right-story-link" href="#">
+                    <h3> Where police may be more <br> deadly than coronavirus</h3></a>
+                    <a href="#"><h4 class="p-class">No-one has officially died from <br> Covid-19 in Uganda, but 12 people <br> have allegedly been killed by <br> security officers.</h4></a>
+                    <img id="hr" src="BBC images/hr.png" alt="">
+            </div>
+
+
+            <div class="first-right">
+                <img class="rigt-story1" src="BBC images/5.png" alt="">
+                <a class="right-story-link" href="#">
+                    <h3> Where police may be more <br> deadly than coronavirus</h3></a>
+                    <a href="#"><h4 class="p-class">No-one has officially died from <br> Covid-19 in Uganda, but 12 people <br> have allegedly been killed by <br> security officers.</h4></a>
+            </div>
+
+            <div class="first-right">
+                <img id="big" src="BBC images/big.png" alt="">
+
+            </div>
+
+    
+        </div>
+    
+
+
+
+    <div class="horizontal-stories">
+
+        <div class="first-right">
+            <img class="rigt-story1" src="BBC images/h1.png" alt="">
+            <a class="right-story-link" href="#">
+                <h3> Where police may be more <br> deadly than coronavirus</h3></a>
+        </div>
+
+       
+        <div class="first-right">
+            <img class="rigt-story1" src="BBC images/h2.png" alt="">
+            <a class="right-story-link" href="#">
+                <h3> Where police may be more <br> deadly than coronavirus</h3></a>
+        </div>
+        
+        <div class="first-right">
+            <img class="rigt-story1" src="BBC images/h3.png" alt="">
+            <a class="right-story-link" href="#">
+                <h3> Where police may be more <br> deadly than coronavirus</h3></a>
+        </div>
+
+        <div class="first-right">
+            <img class="rigt-story1" src="BBC images/h4.png" alt="">
+            <a class="right-story-link" href="#">
+                <h3> Where police may be more <br> deadly than coronavirus</h3></a>
+        </div>
+
+        <div class="first-right">
+            <img class="rigt-story1" src="BBC images/h5.png" alt="">
+            <a class="right-story-link" href="#">
+                <h3> Where police may be more <br> deadly than coronavirus</h3></a>
+        </div>
+
+
+    </div>
+
+
+
+
+</body>
+<script>
+    document.body.onclick=function(){
+        document.body.style.backgroundColor="#29303B";
+        document.getElementById("menu-bar-container").style.backgroundColor="#29303B" 
+        document.getElementsByClassName("menu-items-container").style.backgroundColor="#29303B"
+    }
+</script>
+</html>
